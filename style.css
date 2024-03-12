@@ -28,6 +28,10 @@ p {
     font-size: 16px;
 }
 
+a {
+    text-decoration: none;
+}
+
 li {
     list-style: none;
 }
@@ -80,7 +84,6 @@ nav {
 
 .nav__link--anchor {
     margin: 0 12px;
-    text-decoration: none;
     color: #242424;
     font-weight: 700;
 }
@@ -155,7 +158,6 @@ nav {
 .about-me__link {
     font-size: 20px;
     color: #242424;
-    text-decoration: none;
     padding: 0 16px;
 }
 
@@ -293,7 +295,6 @@ nav {
 .project__description--link {
     font-size: 20px;
     margin-right: 16px;
-    text-decoration: none;
 }
 
 .project__description--title,
@@ -310,7 +311,41 @@ footer {
     background-color: #242424;
 }
 
+.footer__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8% 0;
+}
+
+.footer__social--list {
+    width: 100%;
+    max-width: 550px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 28px;
+}
+
 .footer__logo--img {
     width: 70px;
     height: 70px;
+}
+
+.footer__social--link,
+.footer__copyright,
+.footer__logo--popper {
+    color: #fff;
+}
+
+.footer__logo--popper {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    font-weight: 700;
+}
+
+.footer__anchor {
+    position: relative;
+    margin-bottom: 20px;
 }
