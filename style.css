@@ -81,6 +81,7 @@ li {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
+    padding: 0 12px;
 }
 
 .text--purple {
@@ -233,6 +234,7 @@ nav {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .language__name {
@@ -403,5 +405,9 @@ footer {
 
     .language {
         width: calc(100% /3);
+    }
+
+    .project__description--para {
+        font-size: 14px;
     }
 }
