@@ -427,8 +427,20 @@ footer {
         justify-content: center;
     }
 
+    .project__description--title {
+        line-height: 1;
+        font-size: 32px;
+        text-align: center;
+    }
+
     .project__description--sub-title {
         text-align: center;
         margin: 12px 0
+    }
+
+    .project__description {
+        padding: 0;
+        left: 0;
+        width: 100%;
     }
 }
