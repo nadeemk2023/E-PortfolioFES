@@ -194,17 +194,35 @@ nav {
 
 .about-me__info--title {
     margin-bottom: 16px;
+    animation: fade-up 650ms 400ms backwards;
 }
 
 .about-me__info--para {
     font-size: 20px;
     margin-bottom: 28px;
+    animation: fade-up 650ms 600ms backwards;
+}
+
+.about-me__links {
+    animation: fade-up 650ms 800ms backwards;
 }
 
 .about-me__link {
     font-size: 20px;
     color: #242424;
     padding: 0 16px;
+}
+
+@keyframes fade-up {
+    0% {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 .about-me__img--container {
